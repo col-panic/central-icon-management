@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<!--
+  Copyright (c) 2012 Marco Descher.
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the Eclipse Public License v1.0
+  which accompanies this distribution, and is available at
+  http://www.eclipse.org/legal/epl-v10.html
+  
+  Contributors:
+      Marco Descher - initial API and implementation
+-->
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmi:id="_bhkg4BbSEeKH2ah-Op296g">
+  <imports xsi:type="basic:PartStack" xmi:id="_OaZIYB9bEeKG_plSwGXJrA" elementId="at.medevit.e4.main.partstack"/>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_QBUC4B9bEeKG_plSwGXJrA" featurename="children" parentElementId="at.medevit.e4.main.partstack">
+    <elements xsi:type="basic:Part" xmi:id="_UhPK0B9bEeKG_plSwGXJrA" elementId="at.medevit.plugin.alpha.part.0" contributionURI="bundleclass://at.medevit.plugin.alpha/at.medevit.plugin.alpha.part.PartAlpha" label="alpha part" iconURI="icon://PART_ALPHA"/>
+  </fragments>
+</fragment:ModelFragments>

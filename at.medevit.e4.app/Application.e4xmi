@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_T-TpIBIDEeKNg6OeGkPd1w" elementId="org.eclipse.e4.ide.application" bindingContexts="_T-UQNxIDEeKNg6OeGkPd1w">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_T-UQMBIDEeKNg6OeGkPd1w" label="at.medevit.e4.app" width="400" height="300">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_T-UQThIDEeKNg6OeGkPd1w" elementId="at.medevit.e4.main.perspectivestack">
+      <children xsi:type="advanced:Perspective" xmi:id="_T-UQTxIDEeKNg6OeGkPd1w" elementId="at.medevit.e4.main.perspective">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_T-UQUBIDEeKNg6OeGkPd1w" elementId="at.medevit.e4.main.partsashcontainer">
+          <children xsi:type="basic:PartStack" xmi:id="_T-UQURIDEeKNg6OeGkPd1w" elementId="at.medevit.e4.main.partstack">
+            <children xsi:type="basic:Part" xmi:id="_T-UQUhIDEeKNg6OeGkPd1w" elementId="at.medevit.e4.main.part" contributionURI="bundleclass://at.medevit.e4.app/at.medevit.e4.app.parts.SamplePart" label="Sample Part" iconURI="icon://PART_MAIN">
+              <menus xsi:type="menu:PopupMenu" xmi:id="_YgMzYB9eEeKG_plSwGXJrA" elementId="at.medevit.e4.main.part.table.popupmenu"/>
+              <menus xmi:id="_NYx9kB9fEeKG_plSwGXJrA" elementId="at.medevit.e4.main.part.viewmenu">
+                <tags>ViewMenu</tags>
+              </menus>
+            </children>
+          </children>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_T-UQRxIDEeKNg6OeGkPd1w" elementId="menu:org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_T-UQSBIDEeKNg6OeGkPd1w" label="File">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_T-UQSRIDEeKNg6OeGkPd1w" label="Open" iconURI="icon://ICON_SAMPLE" command="_T-UQPhIDEeKNg6OeGkPd1w"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_T-UQShIDEeKNg6OeGkPd1w" label="Save" iconURI="" command="_T-UQQRIDEeKNg6OeGkPd1w"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_T-UQSxIDEeKNg6OeGkPd1w" label="Quit" command="_T-UQOhIDEeKNg6OeGkPd1w"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_T-UQTBIDEeKNg6OeGkPd1w" label="Help">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_T-UQTRIDEeKNg6OeGkPd1w" label="About" command="_T-UQRBIDEeKNg6OeGkPd1w"/>
+      </children>
+    </mainMenu>
+    <trimBars xmi:id="_T-UQUxIDEeKNg6OeGkPd1w">
+      <children xsi:type="menu:ToolBar" xmi:id="_T-UQVBIDEeKNg6OeGkPd1w" elementId="toolbar:org.eclipse.ui.main.toolbar">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_T-UQVRIDEeKNg6OeGkPd1w" elementId="at.medevit.e4.app.open.toolbar.contribution" iconURI="icon://ICON_SAMPLE" command="_T-UQPhIDEeKNg6OeGkPd1w"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_T-UQVhIDEeKNg6OeGkPd1w" iconURI="icon://ICON_SAVE_EDIT" command="_T-UQQRIDEeKNg6OeGkPd1w"/>
+      </children>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_T-UQOxIDEeKNg6OeGkPd1w" contributionURI="bundleclass://at.medevit.e4.app/at.medevit.e4.app.handlers.QuitHandler" command="_T-UQOhIDEeKNg6OeGkPd1w"/>
+  <handlers xmi:id="_T-UQPxIDEeKNg6OeGkPd1w" contributionURI="bundleclass://at.medevit.e4.app/at.medevit.e4.app.handlers.OpenHandler" command="_T-UQPhIDEeKNg6OeGkPd1w"/>
+  <handlers xmi:id="_T-UQQhIDEeKNg6OeGkPd1w" contributionURI="bundleclass://at.medevit.e4.app/at.medevit.e4.app.handlers.SaveHandler" command="_T-UQQRIDEeKNg6OeGkPd1w"/>
+  <handlers xmi:id="_T-UQRRIDEeKNg6OeGkPd1w" contributionURI="bundleclass://at.medevit.e4.app/at.medevit.e4.app.handlers.AboutHandler" command="_T-UQRBIDEeKNg6OeGkPd1w"/>
+  <bindingTables xmi:id="_T-UQPBIDEeKNg6OeGkPd1w" bindingContext="_T-UQNxIDEeKNg6OeGkPd1w">
+    <bindings xmi:id="_T-UQPRIDEeKNg6OeGkPd1w" keySequence="M1+Q" command="_T-UQOhIDEeKNg6OeGkPd1w"/>
+    <bindings xmi:id="_T-UQQBIDEeKNg6OeGkPd1w" keySequence="M1+O" command="_T-UQPhIDEeKNg6OeGkPd1w"/>
+    <bindings xmi:id="_T-UQQxIDEeKNg6OeGkPd1w" keySequence="M1+S" command="_T-UQQRIDEeKNg6OeGkPd1w"/>
+    <bindings xmi:id="_T-UQRhIDEeKNg6OeGkPd1w" keySequence="M1+A" command="_T-UQRBIDEeKNg6OeGkPd1w"/>
+  </bindingTables>
+  <rootContext xmi:id="_T-UQNxIDEeKNg6OeGkPd1w" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_T-UQOBIDEeKNg6OeGkPd1w" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_T-UQORIDEeKNg6OeGkPd1w" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <commands xmi:id="_T-UQOhIDEeKNg6OeGkPd1w" elementId="org.eclipse.ui.file.exit" commandName="quitCommand"/>
+  <commands xmi:id="_T-UQPhIDEeKNg6OeGkPd1w" elementId="at.medevit.e4.app.open" commandName="openCommand"/>
+  <commands xmi:id="_T-UQQRIDEeKNg6OeGkPd1w" elementId="org.eclipse.ui.file.save" commandName="saveCommand"/>
+  <commands xmi:id="_T-UQRBIDEeKNg6OeGkPd1w" elementId="org.eclipse.ui.help.aboutAction" commandName="aboutCommand"/>
+  <addons xmi:id="_T-UQMRIDEeKNg6OeGkPd1w" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_T-UQMhIDEeKNg6OeGkPd1w" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_T-UQMxIDEeKNg6OeGkPd1w" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_T-UQNBIDEeKNg6OeGkPd1w" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_T-UQNRIDEeKNg6OeGkPd1w" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_T-UQNhIDEeKNg6OeGkPd1w" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>

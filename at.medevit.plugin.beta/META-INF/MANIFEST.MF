@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Beta Plugin for E4 app
+Bundle-SymbolicName: at.medevit.plugin.beta;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: at.medevit.plugin.beta.Activator
+Bundle-Vendor: medevit.at
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.e4.core.di,
+ javax.inject,
+ org.eclipse.e4.ui.workbench;bundle-version="0.10.3",
+ org.eclipse.e4.ui.services;bundle-version="0.10.2",
+ org.eclipse.e4.core.contexts;bundle-version="1.1.0",
+ at.medevit.e4.app;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Import-Package: org.eclipse.jface.viewers

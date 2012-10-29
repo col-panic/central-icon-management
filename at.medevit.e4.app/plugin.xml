@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            name="at.medevit.e4.app"
+            application="org.eclipse.e4.ui.workbench.swt.E4Application">
+         <property
+               name="RICH_SAMPLE"
+               value="TRUE">
+         </property>
+         <property
+               name="clearPersistedState"
+               value="true">
+         </property>
+         <property
+               name="applicationCSS"
+               value="platform:/plugin/at.medevit.e4.app/css/default.css">
+         </property>
+         <property
+               name="appName"
+               value="at.medevit.e4.app">
+         </property>
+         <property
+               name="lifeCycleURI"
+               value="bundleclass://at.medevit.e4.app/at.medevit.e4.app.ApplicationLifecycle">
+         </property>
+      </product>
+   </extension>
+
+</plugin>

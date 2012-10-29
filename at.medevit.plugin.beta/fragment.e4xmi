@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<!--
+  Copyright (c) 2012 Marco Descher.
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the Eclipse Public License v1.0
+  which accompanies this distribution, and is available at
+  http://www.eclipse.org/legal/epl-v10.html
+  
+  Contributors:
+      Marco Descher - initial API and implementation
+-->
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_U28foB9cEeKG_plSwGXJrA">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_6haZgB9fEeKG_plSwGXJrA" featurename="children" parentElementId="at.medevit.e4.main.part.viewmenu">
+    <elements xsi:type="menu:DirectMenuItem" xmi:id="_8qOgIB9fEeKG_plSwGXJrA" elementId="at.medevit.plugin.beta.directmenuitem.0" label="add element" iconURI="icon://COMMAND_ADD" contributionURI="bundleclass://at.medevit.plugin.beta/at.medevit.plugin.beta.handler.AddHandler"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_CWIdkB9hEeKG_plSwGXJrA" featurename="children" parentElementId="at.medevit.e4.main.part.table.popupmenu">
+    <elements xsi:type="menu:DirectMenuItem" xmi:id="_FHej0B9hEeKG_plSwGXJrA" elementId="at.medevit.plugin.beta.directmenuitem.1" label="add element" iconURI="icon://COMMAND_ADD" contributionURI="bundleclass://at.medevit.plugin.beta/at.medevit.plugin.beta.handler.AddHandler"/>
+  </fragments>
+</fragment:ModelFragments>

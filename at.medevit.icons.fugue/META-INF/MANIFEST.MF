@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Fugue Icons Resource Bundle
+Bundle-SymbolicName: at.medevit.icons.fugue
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: p.yusukekamiyamane.com
+Fragment-Host: at.medevit.icons;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7

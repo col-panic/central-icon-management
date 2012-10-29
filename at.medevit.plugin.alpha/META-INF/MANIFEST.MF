@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Alpha Plugin for E4 app
+Bundle-SymbolicName: at.medevit.plugin.alpha;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: at.medevit.plugin.alpha.Activator
+Bundle-Vendor: medevit.at
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.e4.ui.workbench;bundle-version="0.10.3",
+ org.eclipse.e4.ui.di,
+ javax.inject,
+ org.eclipse.swt;bundle-version="3.100.1",
+ org.eclipse.jface;bundle-version="3.8.101",
+ at.medevit.e4.app;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy

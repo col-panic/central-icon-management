@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Icons Sample
+Bundle-SymbolicName: at.medevit.icons
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: at.medevit.icons.Activator
+Bundle-Vendor: medevit.at
+Require-Bundle: org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Import-Package: org.eclipse.jface.resource,
+ org.eclipse.swt.graphics
+Export-Package: at.medevit.icons.core,
+ at.medevit.icons.urihandler
