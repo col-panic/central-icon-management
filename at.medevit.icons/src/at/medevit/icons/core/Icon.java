@@ -118,9 +118,7 @@ public enum Icon {
 					new Path("icons/" + is.name + "/" + fileName), null);
 			ImageDescriptor id = ImageDescriptor.createFromURL(fileLocation);
 			JFaceResources.getImageRegistry().put(name, id);
-		} catch (MissingResourceException e) {
-			return false;
-		} catch (IllegalArgumentException e) {
+		} catch (MissingResourceException | IllegalArgumentException e) {
 			return false;
 		}
 		return true;
